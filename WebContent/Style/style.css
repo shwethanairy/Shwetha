@@ -1,0 +1,294 @@
+@CHARSET "UTF-8";
+
+/* ============================================= */
+/* CSS                                           */
+/* ============================================= */
+.slider {
+	top: -0.55rem;
+	height: 1rem;
+	width: 1rem;
+}
+
+.sapMSliderHandle {
+	top: -0.55rem;
+	height: 1rem;
+	width: 1rem;
+}
+.fontStyle {
+	font-weight : bold ;
+}
+
+.currAccList {
+	font-weight : bold ;
+}
+.ipLbl {
+       font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+       color: #333333;
+       cursor: pointer      ;
+       margin-left: 10px;
+}
+.sapMApp {
+	background-color: none;
+}
+
+.ipLbl1 {
+       font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+       color: #333333;
+       cursor: pointer      ;
+       padding-right: 0;
+}
+
+.sap-android .sapMInputInner, .sap-bb .sapMInputInner {
+	position: relative;
+	display: inline-block;
+	border: none;
+	font-size: 0.875rem;
+	min-width: 2.75em;
+	border : solid;
+	border-color: #f0ab00; 
+	text-align: center;
+}
+
+.flex {
+       border-radius: 5px;
+       background-color: #C0C0C0;
+       
+
+}
+
+.hbox {
+       padding-left: 40%; 
+       padding-top: 15%; 
+}
+
+.hbox1 {
+       width: 100%; 
+}
+
+.try2 {
+       text-align: right;
+       padding-top: 10px;
+}
+
+.try1 {
+     
+       width: 250px;
+           
+}
+
+.sapUiBLy {
+	visibility: hidden;
+}
+
+.sap-android .sapMILIDiv, .sap-bb .sapMILIDiv {
+	width: 100%
+}
+.radioBtn {
+       font-weight : bold;
+       font-family: Arial;
+       color: #f0ab00; 
+
+}
+.label {
+       margin-left : 45px ; 
+       width : 250px ; 
+       font-family: Arial;
+       font-size: 14px;
+       
+}
+
+.label1 {
+       
+       font-family: Arial;
+       font-size: 14px; 
+       font-weight : bold;
+      
+       
+}
+.sapMBar.sapMHeader-CTX {
+   background-color: #f0ab00; 
+   border-radius : 10px;
+
+}
+.sapMBar-CTX.sapMHeader-CTX .sapMLabel {
+       color : #000000 ;
+}
+.sap-android .sapMListHdr {
+       text-transform: none ;
+       background-color: #C0C0C0;
+       color: #000000 ;
+       font-weight : bold;
+       font-family: Arial;
+       border-radius : 5px;
+}
+
+.sapMPopoverArr {
+       display : none ;
+}
+.sapMPopoverCont {
+       margin : 5px ; 
+       margin-top : 5px;
+       border-radius : 10px ;
+       border-style : solid ;
+       border-color :  #C0C0C0;
+}
+.sapMPopover {
+color : #000000;     
+       
+}
+.sapMPopoverWithBar.sapMPopoverWithoutFooter>.sapMPopoverCont {
+       margin-top : 5px;
+}
+
+.listItem
+ {
+ 	   border-radius: 10px;
+       font-family: Arial;
+       border-style : ridge;
+       border-width : 5px;
+       font-weight : bold;
+       color : #000000 ;
+
+}
+
+
+
+
+#accountListTemplate,
+#paymentplanListTemplate,
+#openListItem,
+#PPCO1List,
+#PPCO2List,
+#PPCO3List,
+#PPCO4List,
+#mainList,
+#cngInst,
+#cngTerm,
+#cngBalloon
+ {
+ 	   border-radius: 10px;
+       font-family: Arial;
+       border-style : ridge;
+       border-width : 5px;
+       font-weight : bold;
+       color : #000000 ;
+
+}
+
+
+#offers
+{
+       font-family: Arial;
+      font-size: 13pt;
+      color: #000000;
+       background-color: #f0ab00;
+       border-radius: 10px;
+       border-width: 2px;
+       border-color:#C0C0C0;
+       border-style: solid ;
+}
+
+#accept
+{
+       font-family: Arial;
+      font-size: 13pt;
+      color: #000000;
+       background-color: #f0ab00;
+       border-radius: 10px;
+       border-width: 2px;
+       border-color:#C0C0C0;
+       border-style: solid ;
+}
+
+
+#dialog1 , #dialog2 {
+       color: #C0C0C0;
+       border-radius: 5px;
+       background-color: #C0C0C0;
+       border-color: #C0C0C0;
+       box-shadow: 0 0.0625em 0 rgba(255,255,255,0.1),0.0625em 0 0 rgba(255,255,255,0.1),0 -0.0625em 0 rgba(255,255,255,0.1),-0.0625em 0 0 rgba(255,255,255,0.1),inset 0 0.0625em 0 rgba(255,255,255,0.1),0 0 2.75em rgba(211,211,211,211);
+}
+
+.dialog{
+	  color: #C0C0C0;
+       border-radius: 5px;
+       background-color: #C0C0C0;
+       border-color: #C0C0C0;
+       box-shadow: 0 0.0625em 0 rgba(255,255,255,0.1),0.0625em 0 0 rgba(255,255,255,0.1),0 -0.0625em 0 rgba(255,255,255,0.1),-0.0625em 0 0 rgba(255,255,255,0.1),inset 0 0.0625em 0 rgba(255,255,255,0.1),0 0 2.75em rgba(211,211,211,211);
+}
+
+.dialogLbl{
+       padding-left: 0.625em;
+       height: 1cm;
+}
+.dialogBtn {
+       overflow: hidden;
+       font-family: Arial;
+       overflow: hidden;
+       max-height: 50px;
+       height: 3em;
+       
+}
+.sap-android .sapMDialog .sapMDialogActions>.sapMDialogAction>button.sapMBtn:not(.sapMBtnActive) {
+       background-color: #dedede;
+}
+.sap-android .sapMDialog .sapMDialogActions>.sapMDialogAction>button.sapMBtn {
+       border-radius: 10px;
+       width: 100%;
+       border-top: 1px ridge #C0C0C0;
+       border-bottom: ridge #C0C0C0;
+       border-left: ridge #C0C0C0;
+       border-right: ridge #C0C0C0;
+       border-width: 1px;
+       
+}
+.sap-android .sapMDialog>section {
+	overflow: hidden;
+	max-height: 50px;
+	height: 2em;
+	padding-top: 3%;
+	border-radius: 5px;
+	border-style: ridge;
+	border-color: #C0C0C0;
+	background-color: #dedede;
+	font-family: Arial;
+	border-width: 0px;
+	border-top : none ;
+	border-bottom: none ;
+	margin: 5px;
+
+}
+.sap-android .sapMDialog>header {
+	border-bottom:none;
+	
+}
+.sap-android .sapMDialog>header>h1 {
+	overflow: hidden;
+	max-height: 50px;
+	height: 2em;
+	background-color: #f0ab00;
+	border-radius: 10px;
+	margin: 5px;
+
+}
+.sap-android .sapMDialog {
+	 background-color: #C0C0C0;
+}
+.sapMDialog .sapMDialogActions {
+	margin : 5px;
+}
+.sapMFlexItem {
+	width: 100% ;
+}
+.calcHBox {
+	width: 30% ; 
+}
+
+.sapMPage>section {
+	height: 1000px;
+}
+	
